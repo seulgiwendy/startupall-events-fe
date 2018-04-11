@@ -17,6 +17,7 @@ const EventItem = (props) => {
                     <div>2018.04.10</div>
                 </div>
                 <div className="events-item-date col-md-3">
+                    <p className="date-caption">신청마감까지</p>
                     <p className="date-text">D - 5</p>
                 </div>
             </div>

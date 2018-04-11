@@ -11,9 +11,7 @@ class MainPage extends Component {
                 <Jumbotron className="main-jumbo">
                     <ImageSlider/>
                 </Jumbotron>
-                <div className="main-caption">
-                    <h4>진행중인 신청들</h4>
-                </div>
+                
                 <div className="main-events">
                     <EventList/>
                 </div>
