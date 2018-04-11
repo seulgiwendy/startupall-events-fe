@@ -7,7 +7,7 @@ const MainNavbar = (props) => {
         <Navbar>
             <Navbar.Header>
                 <Navbar.Brand>
-                    <p>스타트업 얼라이언스</p>
+                    스타트업 얼라이언스
                 </Navbar.Brand>
             </Navbar.Header>
         </Navbar>
