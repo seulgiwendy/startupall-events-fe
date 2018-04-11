@@ -16,6 +16,9 @@ const ImageSlider = (props) => {
             <Carousel.Item>
             <div className="center-cropped" style={{"background-image": "url('https://i.imgur.com/QPuudPa.jpg')"}}></div>
             </Carousel.Item>
+            <Carousel.Item>
+            <div className="center-cropped" style={{"background-image": "url('https://i.imgur.com/QPuudPa.jpg')"}}></div>
+            </Carousel.Item>
         </Carousel>
     )
 }
