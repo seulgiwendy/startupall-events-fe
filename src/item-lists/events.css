@@ -1,0 +1,40 @@
+.events-list {
+    min-height: 500px;
+    padding: 50px;
+}
+
+.events-item {
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+    margin-left: 5em;
+}
+
+.events-item-thumb {
+    height: 60%;
+}
+
+.events-item-img {
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+
+.events-item-textbox {
+      padding: 2% 5%;
+  }
+
+.events-item-date {
+    margin-top: 5%;
+    padding: 0;
+    color: red;
+}
+
+.date-text {
+    font-size: 30px;
+}
+
+.events-item-title {
+    padding: 5%;
+}
