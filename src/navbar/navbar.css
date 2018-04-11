@@ -1,20 +1,39 @@
 .main-navbar {
     background-color: black;
+    height: 50px;
 }
 
-.nav.navbar-nav.navbar-right li a {
-    color: blue;
-}
-
-.navbar-startupall {
+#navitem {
     color: white;
 }
 
-.navbar.center .navbar-inner {
-    text-align: center;
+#username {
+    color: silver;
+    margin-left: 5px;
 }
 
-.navbar.center .navbar-inner .nav {
-    display:inline-block;
-    float: none;
+.nav.nav-center {
+    margin:0;
+    float:none;
+}
+
+.center-navbar {
+    align-items: center;
+    margin: auto;
+}
+
+.navbar-user-img {
+    height: 40px;
+    padding-top: 5px;
+}
+
+.navbar-user-img img{
+    height: 100%;
+}
+
+.navbar-userbtn {
+    padding: 2px 5px;
+    border: silver;
+    color: white;
+    background-color: black !important;
 }
