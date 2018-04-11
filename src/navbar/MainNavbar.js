@@ -1,10 +1,11 @@
 import React from 'react';
 import { Navbar } from 'react-bootstrap';
+import './navbar.css';
 
 
 const MainNavbar = (props) => {
     return(
-        <Navbar>
+        <Navbar className="global-navbar">
             <Navbar.Header>
                 <Navbar.Brand>
                     스타트업 얼라이언스
