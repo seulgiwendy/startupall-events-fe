@@ -7,8 +7,7 @@ const EventList = (props) => {
         <div className="events-list">
             <EventItem/>
             <EventItem/>
-            <EventItem/>
-            <EventItem/>
+            
         </div>
     )
 
