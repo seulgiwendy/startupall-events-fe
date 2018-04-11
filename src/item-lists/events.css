@@ -1,0 +1,54 @@
+.events-list {
+    min-height: 500px;
+    padding: 50px;
+}
+
+.events-item {
+    display: inline-block;
+    width: 400px;
+    height: 300px;
+    margin-left: 5em;
+}
+
+.events-item-thumb {
+    height: 60%;
+}
+
+.events-item-img {
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+
+.events-item-textbox {
+      padding: 5% 5%;
+  }
+
+.events-item-date {
+    margin-top: 5%;
+    padding: 0;
+    color: red;
+}
+
+.events-item-tags {
+    padding-top: 15px;
+    padding-left: 15px;
+}
+.date-text {
+    font-size: 30px;
+}
+
+.title-text {
+    font-size: 15px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: bold;
+}
+
+.event-tag {
+    margin-left: 5px;
+}
+
+.events-item-title {
+    padding: 5%;
+}
