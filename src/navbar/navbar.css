@@ -1,6 +1,9 @@
 .main-navbar {
+    border-radius: 0%;
+    border: transparent;
     background-color: black;
     height: 50px;
+    margin-bottom: 0;
 }
 
 #navitem {
