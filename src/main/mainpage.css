@@ -1,3 +1,7 @@
+.main-body {
+    height: auto;
+}
+
 .main-jumbo {
-    height: 40vh;
+    padding: 0;
 }
