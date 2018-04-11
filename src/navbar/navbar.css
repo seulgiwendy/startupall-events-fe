@@ -2,6 +2,19 @@
     background-color: black;
 }
 
+.nav.navbar-nav.navbar-right li a {
+    color: blue;
+}
+
 .navbar-startupall {
-    color: silver;
+    color: white;
+}
+
+.navbar.center .navbar-inner {
+    text-align: center;
+}
+
+.navbar.center .navbar-inner .nav {
+    display:inline-block;
+    float: none;
 }
