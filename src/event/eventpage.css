@@ -1,0 +1,22 @@
+.main-eventdetails {
+    padding-top: 30px;
+    height: 1000px;
+    width: 100%;
+    background-color: #f8f8f8;
+}
+
+.eventdetails-body {
+    width: 80%;
+    margin: 30px auto;
+    background-color: white;
+}
+
+.eventdetails-panel {
+    height: 600px;
+}
+
+.eventtitle-text {
+    margin-left: 10%;
+    font-size: 30px;
+}
+
