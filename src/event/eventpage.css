@@ -1,7 +1,8 @@
 .main-eventdetails {
-    padding-top: 30px;
-    height: 1000px;
+    min-height: 1000px;
     width: 100%;
+    height: 100%;
+    padding-top: 30px;
     background-color: #f8f8f8;
 }
 
@@ -11,12 +12,71 @@
     background-color: white;
 }
 
-.eventdetails-panel {
-    height: 600px;
+.eventdetails-title {
+    padding: 0;
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.eventtitle-text {
-    margin-left: 10%;
-    font-size: 30px;
+.eventdetails-panel {
+    padding: 1%;
+    margin-bottom: 50px;
+}
+
+.eventtitle-text h3 {
+    margin: 0;
+    font-size: 35px;
+}
+
+.event-info {
+    width: 100%;
+    padding-bottom: 30px;
+    border-bottom: silver 1px solid;
+    margin-left: 0;
+}
+
+.event-info-description {
+    padding: 1%;
+    border-bottom: silver 1px solid;
+}
+
+.event-info-description-textbox {
+    padding: 2%;
+    height: 700px;
+}
+
+.event-info-bottom {
+    padding-top: 20px;
+}
+
+.event-infopanel {
+    width: 100%;
+}
+
+.event-info-cal-details {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.event-detail {
+    margin-right: 5px;
+}
+
+.event-img {
+    width: 100%;
+}
+
+.event-calendar {
+    height: 60%;
+}
+
+.event-applybutton-top {
+    margin-top: 10px;
+    width: 100%;
 }
 
