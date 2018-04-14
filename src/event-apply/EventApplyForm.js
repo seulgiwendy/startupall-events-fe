@@ -6,6 +6,18 @@ class EventApplyForm extends Component {
 
     constructor(props) {
         super(props);
+
+        this.state = {
+            eventApplyInfo: undefined
+        };
+    }
+
+    componentDidMount() {
+        console.log('fuck!');
+        this.setState({
+            eventApplyInfo: 1
+        });
+        window.scrollTo(0, 0);
     }
 
     render() {

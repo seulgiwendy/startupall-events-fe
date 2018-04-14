@@ -8,7 +8,7 @@ class EventPage extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            applyPageDisplay: true
+            applyPageDisplay: false
         };
         this.handleApplyClick = this.handleApplyClick.bind(this);
         this.goEventDetails = this.goEventDetails.bind(this);
@@ -21,14 +21,13 @@ class EventPage extends Component {
     }
 
     handleApplyClick() {
-        console.log('fuck!');
         this.setState({
             applyPageDisplay: true
         });
     }
 
-    componentWillUnmount() {
-        console.log('ssibal! unmount!');
+    handleGoTop() {
+        window.scrollTo(0 , 0);
     }
 
     render() {
@@ -124,6 +123,7 @@ class EventPage extends Component {
 
 베트남 진출을 고려하는 스타트업, 베트남 스타트업 생태계 및 글로벌 액셀러레이터 VSV에 대해 궁금하신 분들은 다음 주 월요일 4월 16일 테헤란로 런치클럽에 오세요 
                                 </div>
+                                <a className="event-info-description-gotop" onClick={this.handleGoTop}>맨 위로...</a>
                             </div>
                             <div className="event-info-bottom">
                                 <Button bsStyle="success" className="center-block" onClick={this.handleApplyClick}>행사 신청하기</Button>

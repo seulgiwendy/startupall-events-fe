@@ -58,5 +58,6 @@ p {
     margin-left: 5px;
 }
 
-.events-item-title {
+.event-info-description-gotop {
+    cursor: pointer;
 }
