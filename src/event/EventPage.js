@@ -1,14 +1,44 @@
 import React, { Component } from 'react';
-import { Panel, Image, Table, Alert } from 'react-bootstrap';
+import { Panel, Image, Table, Alert, Button } from 'react-bootstrap';
 import Calendar, { MonthView } from 'react-calendar';
 import './eventpage.css';
+import EventApplyForm from '../event-apply/EventApplyForm';
 
 class EventPage extends Component {
     constructor(props) {
         super(props);
+        this.state = {
+            applyPageDisplay: true
+        };
+        this.handleApplyClick = this.handleApplyClick.bind(this);
+        this.goEventDetails = this.goEventDetails.bind(this);
+    }
+
+    goEventDetails() {
+        this.setState({
+            applyPageDisplay: false
+        });
+    }
+
+    handleApplyClick() {
+        console.log('fuck!');
+        this.setState({
+            applyPageDisplay: true
+        });
+    }
+
+    componentWillUnmount() {
+        console.log('ssibal! unmount!');
     }
 
     render() {
+
+        if(this.state.applyPageDisplay) {
+            return(
+                <EventApplyForm goback={this.goEventDetails}/>
+            )
+        }
+
         return(
             <div className="main-eventdetails">
                 <div className="container eventdetails-title">
@@ -76,11 +106,11 @@ class EventPage extends Component {
                                     <div className="event-info-cal-details center-block">
                                         <div className="eventapply-date">
                                             <span className="glyphicon glyphicon-calendar"/> 2018.04.16 (월)
-                                            &nbsp;
+                                            <br/>
                                             <span className="glyphicon glyphicon-time"/> 오전 11 : 30
                                         </div>
                                     </div>
-                                    <button className="btn btn-success event-applybutton-top center-block">참가 신청하기</button>
+                                    <button className="btn btn-success event-applybutton-top center-block" onClick={this.handleApplyClick}>참가 신청하기</button>
                                 </div>
                             </div>
                             <div className="event-info-description">
@@ -96,7 +126,7 @@ class EventPage extends Component {
                                 </div>
                             </div>
                             <div className="event-info-bottom">
-                                <button className="btn btn-success center-block">행사 신청하기</button>
+                                <Button bsStyle="success" className="center-block" onClick={this.handleApplyClick}>행사 신청하기</Button>
                             </div>
                         </Panel.Body>
                     </Panel>
