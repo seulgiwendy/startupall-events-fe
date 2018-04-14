@@ -1,0 +1,54 @@
+.login-modal {
+    width: 800px;
+}
+
+
+.loginmodal-form {
+    padding-bottom: 20px;
+    border-right: silver 1px solid;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.loginmodal-social {
+   text-align: center;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+
+.loginmodal-form-buttons {
+    margin-top: 40px;
+}
+
+.loginmodal-box {
+    margin-bottom: 10px;
+}
+
+.login-button {
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+.social-button {
+    display: inline-block;
+    margin: 10px auto;
+    width: 240px;
+    height: 40px;
+    border-radius: 0.5em;
+    border: 1px solid transparent;
+}
+
+.kakao-button {
+    max-width: 100%;
+    max-height: 100%;
+    background-image: url('https://s3.ap-northeast-2.amazonaws.com/startupall-events-static/kakao-wide-resize.png')
+}
+
+.naver-button {
+    background-image: url('https://s3.ap-northeast-2.amazonaws.com/startupall-events-static/naver-resize-wide.png');
+}
+
+.login-icons {
+    margin-right: 5px;
+}
+
