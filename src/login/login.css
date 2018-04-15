@@ -24,6 +24,10 @@
     margin-bottom: 10px;
 }
 
+.loginmodal-iforgot {
+    cursor: pointer;
+}
+
 .login-button {
     margin-bottom: 5px;
     width: 100%;

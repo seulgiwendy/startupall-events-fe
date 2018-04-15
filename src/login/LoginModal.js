@@ -55,7 +55,7 @@ class LoginModal extends Component {
                             (처음 한 번은 회원가입이 필요합니다.)
                         </div>
                         <button className="social-button kakao-button"></button>
-                        <button className="social-button naver-button"></button>
+                        <button className="btn btn-default social-button naver-button"></button>
                         <button className="social-button btn btn-block btn-social btn-facebook"><span className="fab fa-facebook"></span>Facebook 로그인</button>
                     </div>
                     </div>
