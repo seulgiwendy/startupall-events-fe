@@ -1,0 +1,91 @@
+.myinfo-body {
+    min-height: 800px;
+    margin-top: 20px;
+    padding-top: 50px;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+.myinfo-field {
+    margin-bottom: 20px;
+}
+
+.myinfo-content-title {
+    margin-top: 0;
+}
+
+.myinfo-content-body {
+    margin-top: 20px;
+}
+
+.myinfo-events-content-body {
+    margin-top: 20px;
+    padding-left: 0;
+    padding-right: 20%;
+}
+
+.myinfo-events-eventstable {
+    margin-top: 25px;
+}
+
+.myinfo-content-row {
+    margin-bottom: 50px;
+}
+
+.myinfo-content-category {
+    padding-left: 0;
+}
+
+.myinfo-events-tablecontent {
+    width: 70%;
+}
+
+.events-tags {
+    min-height: 100%;
+}
+
+.event-title {
+    margin-top: 10px;
+}
+
+.events-img{
+    width: 100%;
+    height: 100%;
+}
+
+.myinfo-events-datetime {
+    width: 80%;
+    margin: 0;
+}
+
+.vertical-align {
+    align-items: center;
+}
+
+.events-datetime {
+    height: 100%;
+}
+
+.events-date {
+    font-weight: bold;
+}
+
+.events-cancel {
+    padding: 5px;
+}
+
+.events-time {
+    font-weight: bold;
+}
+
+#password-new {
+    width: 50%;
+}
+
+#password-confirm {
+    width: 50%;
+}
+
+.password-form {
+    margin-top: 20px;
+}

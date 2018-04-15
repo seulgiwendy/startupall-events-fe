@@ -6,6 +6,7 @@ import MainNavbar from './navbar/MainNavbar';
 import MainPage from './main/MainPage';
 import MainFooter from './navbar/MainFooter';
 import EventPage from './event/EventPage';
+import MyPage from './mypage/MyPage';
 
 class App extends Component {
   render() {
@@ -14,7 +15,8 @@ class App extends Component {
         <div>
           <MainNavbar/>
             <Route exact path="/" component={MainPage}/>
-            <Route exact path="/event/:title" component={EventPage}/>
+            <Route path="/event/:title" component={EventPage}/>
+            <Route path="/mypage/:menu" component={MyPage}/>
           <MainFooter/>
         </div>
       </BrowserRouter>
